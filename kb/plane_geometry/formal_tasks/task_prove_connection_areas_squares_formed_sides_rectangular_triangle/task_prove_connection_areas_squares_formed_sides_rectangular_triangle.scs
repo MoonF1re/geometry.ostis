@@ -8,6 +8,14 @@ task_prove_connection_areas_squares_formed_sides_rectangular_triangle <= nrel_sc
 		(* <- lang_ru;; *);;
 	*);;
 
+ask_prove_connection_areas_squares_formed_sides_rectangular_triangle <= nrel_sc_text_translation: 
+	...
+	(*
+	-> rrel_example: 
+		[Prove that the sum of the areas of the squares built on the cathetes of a right triangle is equal to the area of the square built on the hypotenuse of this triangle.]
+		(* <- lang_en;; *);;
+	*);;
+
 task_prove_connection_areas_squares_formed_sides_rectangular_triangle <- rrel_key_sc_element: 
 	...
 	(*

@@ -7,6 +7,14 @@ task_find_base_isoscales_triangle_givven_perimeter_lateral_side <= nrel_sc_text_
 		[Периметр равнобедренного треугольника равен 7,5 местров, а боковая сторона ровна 2 м. Найдите основание.]
 		(* <- lang_ru;; *);;
 	*);;
+	
+task_find_base_isoscales_triangle_givven_perimeter_lateral_side <= nrel_sc_text_translation: 
+	...
+	(*
+	-> rrel_example: 
+		[The perimeter of an isosceles triangle is 7.5 metres and the side is 2 metres. Find the base.]
+		(* <- lang_en;; *);;
+	*);;
 
 task_find_base_isoscales_triangle_givven_perimeter_lateral_side <- rrel_key_sc_element: 
 	...

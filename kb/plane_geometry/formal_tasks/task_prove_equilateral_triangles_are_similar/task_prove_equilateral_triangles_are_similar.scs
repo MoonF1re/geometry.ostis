@@ -7,6 +7,14 @@ task_prove_equilateral_triangles_are_similar <= nrel_sc_text_translation:
 		[Докажите, что равносторонние треугольники подобны.]
 		(* <- lang_ru;; *);;
 	*);;
+	
+task_prove_equilateral_triangles_are_similar <= nrel_sc_text_translation: 
+	...
+	(*
+	-> rrel_example: 
+		[Prove that equilateral triangles are similar.]
+		(* <- lang_en;; *);;
+	*);;
 
 task_prove_equilateral_triangles_are_similar <- rrel_key_sc_element: 
 	...

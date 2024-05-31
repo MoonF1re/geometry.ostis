@@ -7,6 +7,14 @@ task_find_radius_described_circle_square <= nrel_sc_text_translation:
 		[В окружность радиусом 4 дм вписан правильный треугольник, на стороне которого построен квадрат. Найдите радиус окружности, описанной около квадрата.]
 		(* <- lang_ru;; *);;
 	*);;
+	
+task_find_radius_described_circle_square <= nrel_sc_text_translation: 
+	...
+	(*
+	-> rrel_example: 
+		[A right triangle is inscribed in a circle with radius 4 dm and a square is built on its side. Find the radius of the circle circumscribed about the square.]
+		(* <- lang_en;; *);;
+	*);;
 
 task_find_radius_described_circle_square <- rrel_key_sc_element: 
 	...
